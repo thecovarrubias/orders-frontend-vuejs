@@ -1,33 +1,40 @@
 # orders-frontend-vuejs
 
-This template should help get you started developing with Vue 3 in Vite.
+App que simula un sistema de gestión de órdenes, autenticación de usuarios y visualización de órdenes. Construida con Vue 3, TypeScript y manejo de estado mediante store para una gestión eficiente de datos.
 
-## Recommended IDE Setup
+## Demostración 🌎
+[🔗 Ver demostración del proyecto](https://orders-frontend-vuejs.netlify.app/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Inicio 🚀
 
-## Type Support for `.vue` Imports in TS
+Estas instrucciones te permitirán obtener una copia funcional del proyecto en tu equipo para propósitos de desarrollo y pruebas.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Instalación 🔧
 
-## Customize configuration
+Una serie de ejemplos paso a paso que te indican qué debes ejecutar para poner en marcha un entorno de desarrollo.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Configuración del Proyecto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar y Recarga en Caliente para Desarrollo
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Verificar Tipos, Compilar y Minimizar para Producción
 
 ```sh
 npm run build
 ```
+
+## Construido con 🛠️
+
+- [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript con tipado estático.
+- [Vue](https://vuejs.org/) - Framework progresivo para interfaces de usuario.
+- [Vue Router](https://router.vuejs.org/) - Router oficial para aplicaciones SPA con Vue.
+- [Pinia](https://pinia.vuejs.org/) - Manejo simple de estado para Vue.js.
+- [Vuetify](https://router.vuejs.org/) - Framework de componentes Material Design para Vue.
