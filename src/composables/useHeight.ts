@@ -5,7 +5,7 @@ const useHeight = (): { height: Ref<number> } => {
   const height = ref<number>(0);
 
   const resizeHeight = (): void => {
-    height.value = window.innerHeight;
+    height.value = window.innerHeight - 1;
   };
 
   onMounted(() => {
